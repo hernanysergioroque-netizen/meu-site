@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-MZ">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Explorar – Distrito da Manhiça</title>
+  <meta name="description" content="Jardins, campos de futebol, a margem do Rio Incomáti e a ponte sobre o Incomáti: lugares para visitar na Manhiça.">
+  <link rel="canonical" href="https://exemplo.com/explorar.html">
+  <link rel="icon" href="favicon.ico" sizes="48x48">
+  <link rel="icon" href="favicon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_MZ">
+  <meta property="og:site_name" content="Manhiça – Guia do Distrito">
+  <meta property="og:title" content="Explorar – Distrito da Manhiça">
+  <meta property="og:description" content="Jardins, campos de futebol, a margem do Rio Incomáti e a ponte sobre o Incomáti: lugares para visitar na Manhiça.">
+  <meta property="og:url" content="https://exemplo.com/explorar.html">
+  <meta property="og:image" content="https://exemplo.com/og-image.jpg">
+  <meta property="og:image:alt" content="Rio Incomáti, Manhiça">
+  <meta name="twitter:card" content="summary_large_image">
+  <script>document.documentElement.classList.add("js")</script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="saltar" href="#conteudo">Saltar para o conteúdo</a>
+<header class="topo">
+  <div class="container topo__linha">
+    <a class="marca" href="index.html">
+      <img src="logo.png" alt="" width="48" height="46">
+      <span><small>Distrito da</small><strong>Manhiça</strong></span>
+    </a>
+    <button type="button" class="menu-btn" aria-expanded="false" aria-controls="menu-principal" aria-label="Menu"><span></span><span></span><span></span></button>
+    <nav id="menu-principal" class="nav" aria-label="Principal"><ul class="menu"><li><a href="index.html">Início</a></li><li><a href="servicos-essenciais.html">Serviços Essenciais</a></li><li><a href="comer-e-dormir.html">Comer e Dormir</a></li><li><a href="explorar.html" aria-current="page">Explorar</a></li></ul></nav>
+  </div>
+</header>
+<main id="conteudo">
+<section class="cabecalho"><div class="container"><h1>Explorar a Manhiça</h1><p>Jardins, campos de futebol e paisagens para relaxar, jogar e fotografar.</p></div></section>
+<section class="secao"><div class="container">
+<div class="busca" data-busca="lista" hidden><label for="busca-lista">Pesquisar por nome</label><input type="search" id="busca-lista" autocomplete="off"></div>
+<div class="filtros" role="group" aria-label="Filtrar por categoria" data-filtros="lista" hidden><button type="button" data-filtro="todos" aria-pressed="true">Todos</button><button type="button" data-filtro="jardins" aria-pressed="false">Jardins e parques</button><button type="button" data-filtro="campos" aria-pressed="false">Campos e desporto</button><button type="button" data-filtro="paisagens" aria-pressed="false">Paisagens e rio</button></div>
+<p class="estado" id="lista-estado" role="status"></p>
+<ul class="grade" id="lista">
+<li class="cartao" data-cat="jardins"><img src="jardim-municipal.jpg" alt="Jardim Municipal" width="800" height="533" loading="lazy"><div class="cartao__corpo"><h2>Jardim Municipal</h2><p>Espaço verde para descansar à sombra.</p><span class="etiqueta">Jardins e parques</span></div></li>
+<li class="cartao" data-cat="jardins"><img src="praca.jpg" alt="Praça 18 de Maio" width="800" height="533" loading="lazy"><div class="cartao__corpo"><h2>Praça 18 de Maio</h2><p>Ponto de encontro da vila.</p><span class="etiqueta">Jardins e parques</span></div></li>
+<li class="cartao" data-cat="campos"><img src="campo-municipal.jpg" alt="Campo Municipal da Manhiça" width="800" height="533" loading="lazy"><div class="cartao__corpo"><h2>Campo Municipal da Manhiça</h2><p>Principal campo para jogos e eventos.</p><span class="etiqueta">Campos e desporto</span></div></li>
+<li class="cartao" data-cat="campos"><img src="campo-futsal.jpg" alt="Campos de bairro" width="800" height="533" loading="lazy"><div class="cartao__corpo"><h2>Campos de bairro</h2><p>Jogos e treinos locais.</p><span class="etiqueta">Campos e desporto</span></div></li>
+<li class="cartao" data-cat="paisagens"><img src="margem-rio.jpg" alt="Margem do Rio Incomáti" width="800" height="533" loading="lazy"><div class="cartao__corpo"><h2>Margem do Rio Incomáti</h2><p>Paisagem calma para passeio ao entardecer.</p><span class="etiqueta">Paisagens e rio</span></div></li>
+<li class="cartao" data-cat="paisagens"><img src="ponte.jpg" alt="Ponte sobre o Incomáti" width="800" height="533" loading="lazy"><div class="cartao__corpo"><h2>Ponte sobre o Incomáti</h2><p>Um dos melhores sítios para fotografias.</p><span class="etiqueta">Paisagens e rio</span></div></li>
+</ul>
+</div></section>
+</main>
+<footer class="rodape"><div class="container">Guia da comunidade do Distrito da Manhiça. Site não oficial, sem ligação ao governo.</div></footer>
+<script src="script.js"></script>
+</body>
+</html>
